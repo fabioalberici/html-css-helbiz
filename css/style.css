@@ -1,0 +1,156 @@
+/*reset*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1170px;
+  margin: auto;
+
+  font-family: 'ubuntu', verdana;
+}
+/*iinizio menu nav*/
+@media all and (min-width:992px) {
+  .menu {
+    width: 100%;
+  }
+  .logo {
+    background: white;
+    float: left;
+    margin-left: 40px;
+    line-height: 80px;
+    font-size: 30px;
+  }
+  .lista-menu {
+    float: left;
+    margin-left: 90px;
+
+  }
+  .lista-menu li {
+    display: inline-block;
+    line-height: 80px;
+    margin-left: 10px;
+  }
+  .lista-menu ul {
+    text-align: right;
+  }
+  .lingue {
+    float: right;
+    margin-right: 20px;
+  }
+  .lingue li {
+    display: inline-block;
+    line-height: 80px;
+    margin-right: 5px;
+  }
+}
+@media all and (min-width: 769px) and (max-width: 991px) {
+  .lista-menu {
+    float: left;
+    margin-left: 60px;
+
+  }
+  .lista-menu li {
+    display: inline-block;
+    line-height: 80px;
+    margin-left: 10px;
+  }
+  .lista-menu ul {
+    text-align: right;
+  }
+  .lingue {
+    float: right;
+    margin-right: 20px;
+  }
+  .lingue li {
+    display: inline-block;
+    line-height: 80px;
+    margin-right: 5px;
+  }
+  .menu {
+    width: 100%;
+  }
+  .logo {
+    background: white;
+    float: left;
+    margin-left: 100px;
+    line-height: 80px;
+    font-size: 20px;
+  }
+}
+@media all and (max-width: 768px) {
+  .lista-menu {
+    float: left;
+    margin-left: 60px;
+  }
+  .lista-menu li {
+    display: inline-block;
+    line-height: 80px;
+    margin-left: 10px;
+  }
+  .lista-menu ul {
+    text-align: right;
+  }
+  .lingue {
+    float: right;
+    margin-right: 20px;
+    display: none;
+  }
+  .lingue li {
+    display: inline-block;
+    line-height: 80px;
+    margin-right: 5px;
+  }
+  .menu {
+    width: 100%;
+  }
+  .logo {
+    background: white;
+    float: left;
+    margin-left: 100px;
+    line-height: 80px;
+    font-size: 20px;
+  }
+}
+/*fine menu*/
+
+@media all and (min-width: 1px) {
+  .fotonav  {
+  width: 100%;
+  height: 400px;
+  background-color: red;
+  background-image: url(../img/city-back.jpeg);
+  background-position: 75% 30%;
+  position: relative;
+  }
+  .testo-nav {
+    position: absolute;
+    top: 37%;
+    left: 33%;
+    margin-bottom: 10px;
+  }
+  .testo-nav h2 {
+    color: white;
+    text-align: center;
+  }
+  .testo-nav p {
+    font-size: 10px;
+    margin-top: 25px;
+    text-align: center;
+    color: white;
+  }
+  .app-nav {
+    position: absolute;
+    top: 55%;
+    left: 41%;
+    margin-top: 10px;
+  }
+  .app-nav img {
+    width: 90px;
+  }
+}
+.bike {
+  width: 100%;
+  height: 200px;
+}

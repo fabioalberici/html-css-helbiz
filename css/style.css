@@ -266,20 +266,115 @@ position: relative;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.smart h3 {
-  text-align: right;
-  color: white;
-  margin-right: 40px;
-  margin-top: 30px;
+.scritta-smart {
+  float: right;
+  margin-top: 50px;
+  margin-right: 50px;
 }
-.smart p {
+.scritta-smart h3 {
+  text-align: center;
   color: white;
-  text-align: right;
-  margin-right: 20px;
-  top:
+  font-size: 30px;
+}
+.scritta-smart p {
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.smart ul {
+  color: white;
+  text-align: center;
+  list-style-type: none;
 }
 @media  all in (min-width: 769px) and (max-width: 991px) {
-  .smart {
-    max-width: 100%;
+  .scritta-smart {
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
   }
+  .scritta-smart h3 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+  }
+  .scritta-smart p {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .smart ul {
+    color: white;
+    text-align: center;
+    list-style-type: none;
+  }
+}
+@media all in (max-width: 768px) {
+  .scritta-smart {
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+  }
+  .scritta-smart h3 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+  }
+  .scritta-smart p {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .smart ul {
+    color: white;
+    text-align: center;
+    list-style-type: none;
+  }
+}
+.app {
+  background-image: url(../img/helbiZAPP.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50% 180%;
+}
+.app h3 {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+.app p {
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.app ul {
+  color: white;
+  text-align: center;
+  list-style-type: none;
+}
+.city {
+  height: 300px;
+  background-image: url(../img/Cities-1500.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.city h3 {
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+  font-size: 30px;
+}
+.city p {
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.city ul {
+  color: white;
+  text-align: center;
+  list-style-type: none;
 }

@@ -91,6 +91,7 @@ body {
   }
   .lista-menu ul {
     text-align: right;
+    display: none;
   }
   .lingue {
     float: right;
@@ -123,7 +124,7 @@ background-position: 50% 50%;
 background-size: cover;
 position: relative;
 }
-@media all and (min-width: 769px) {
+@media all in and (max-width: 768px) {
   .testo-nav {
     position: absolute;
     top: 50%;
@@ -148,14 +149,32 @@ position: relative;
     width: 90px;
   }
 }
-@media all in and (max-width: 768px) {
+@media all and (min-width: 769px) and (max-width: 991px){
   .testo-nav {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate( -50% , -50%);
   }
+  .testo-nav h2 {
+    color: white;
+    text-align: center;
+  }
+  .testo-nav p {
+    font-size: 10px;
+    margin-top: 25px;
+    text-align: center;
+    color: white;
+  }
+  .app-nav {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .app-nav img {
+    width: 90px;
+  }
 }
+
 /*fine nav*/
 /*reparto bici*/
 .bici-uno li , a {
@@ -355,6 +374,11 @@ position: relative;
   text-align: center;
   list-style-type: none;
 }
+@media all in (min-width: 769px) and (max-width: 991px) {
+  .app {
+    background-color: red;
+  }
+}
 .city {
   height: 300px;
   background-image: url(../img/Cities-1500.jpg);
@@ -378,3 +402,35 @@ position: relative;
   text-align: center;
   list-style-type: none;
 }
+/*fine reparto social*/
+/*inizio people*/
+.people {
+  background-image: url(../img/Social-Banner.jpg);
+  background-size: cover;
+  position: relative;
+}
+.family {
+  height: 100px;
+  width: 200px;
+  background: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate( -50%, -50%);
+}
+.family h3 {
+  text-align: center;
+  margin-top: 10px;
+}
+.family ul {
+  list-style-type: none;
+  text-align: center;
+}
+.family li {
+  display: inline-block;
+  margin-top: 15px;
+}
+.family i {
+  margin: 8px;
+}
+/*fine people*/
